@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Eurostile Condensed';
+    src: url('../fonts/Eurostile-Condensed.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Eurostile Condensed';
+    src: url('../fonts/EurostileBold-Condensed.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Eurostile';
+    src: url('../fonts/Eurostile-Demi.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/helveticaneue.ttf') format('truetype');
+}

@@ -1,0 +1,70 @@
+header
+  background-color: $white
+  font-family: 'Eurostile Condensed', sans-serif
+  text-transform: uppercase
+  padding-top: 10px
+  padding-bottom: 9px
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  z-index: 1003
+  opacity: 1
+  &.scroll
+    -webkit-box-shadow: 0 0 10px rgba($black, .4)
+    -moz-box-shadow: 0 0 10px rgba($black, .4)
+    box-shadow: 0 0 10px rgba($black, .4)
+    padding: 0
+    opacity: 0.9
+    .navbar-logo
+      img
+        width: 50%
+    .navbar-logo-mobile
+      img
+        width: 60px
+
+.navbar
+  display: flex
+  justify-content: space-between
+  align-items: center
+  &-item
+    text-align: center
+    flex: 1
+    a
+      display: inline-block
+      color: $blue
+      font-size: 1.09375vw
+      padding: 10px 0
+      position: relative
+      font-weight: 700
+      &:after
+        content: ''
+        display: block
+        width: 0
+        height: 3px
+        background-color: rgba($base, 0)
+        position: absolute
+        bottom: 0
+        left: 50%
+    &.active:not(.navbar-logo),
+    &:not(.navbar-logo):hover
+      a:after
+        width: 100%
+        background-color: rgba($base, 1)
+        left: 0
+  &-logo
+    img
+      width: 65%
+      -webkit-transition: all 0.6s
+      -moz-transition: all 0.6s
+      -ms-transition: all 0.6s
+      -o-transition: all 0.6s
+      transition: all 0.6s
+  &-logo-mobile
+    img
+      width: 120px
+      -webkit-transition: all 0.6s
+      -moz-transition: all 0.6s
+      -ms-transition: all 0.6s
+      -o-transition: all 0.6s
+      transition: all 0.6s
