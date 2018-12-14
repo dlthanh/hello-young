@@ -12,7 +12,7 @@ $(document).ready(function() {
         var noticecity  = city[Math.floor(Math.random() * city.length)];
         $('.notify-name').text(fullname);
         $('.notify-city').text(noticecity);
-        $('.notify-order').text('Đặt ' + Math.floor(Math.random() * 3 + 1) + ' hộp Hello White');
+        $('.notify-order').text('Đặt ' + Math.floor(Math.random() * 3 + 1) + ' hộp Hello Young');
         $('.notify-time').text(Math.floor(Math.random() * 10) + ' phút trước');
         $('.notify').show().removeClass('flipOutX').addClass('flipInX').delay(5000).queue(function() {
             $(this).removeClass('flipInX').addClass('flipOutX').dequeue();
